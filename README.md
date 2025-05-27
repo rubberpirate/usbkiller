@@ -1,10 +1,22 @@
-# [USB Killer - Hardware Analysis & Documentation](https://hashnode.com/draft/682ce1edf2f43eb73713406b)
+# USB Killer - Hardware Analysis & Documentation
 
 > ⚠️ **EDUCATIONAL PURPOSE ONLY** - This repository contains documentation and analysis of USB Killer devices for educational and research purposes. **DO NOT BUILD OR USE** these devices maliciously.
 
 ## 📋 Overview
 
 This repository contains comprehensive documentation and analysis of USB Killer hardware - devices designed to demonstrate USB port vulnerabilities through high-voltage electrical pulses. The content is intended for cybersecurity professionals, hardware engineers, and researchers studying USB security.
+
+### PCB Layout Views
+
+| Front Side | Back Side |
+|------------|-----------|
+| ![USB Killer Front PCB](Images/front.png) | ![USB Killer Back PCB](Images/back.png) |
+| Component placement and routing | Silkscreen with specifications |
+
+**Device Specifications** (from PCB silkscreen):
+- **Model**: USB Killer V1.0
+- **Input**: DC-5V (standard USB power)
+- **Output**: DC-240V (lethal high voltage)
 
 ## 📁 Repository Contents
 
@@ -55,3 +67,4 @@ This repository contains comprehensive documentation and analysis of USB Killer 
 | MOSFETs | 4-6 | High-speed switching |
 | Inductors | 2-3 | Voltage step-up |
 | Resistors | 15+ | Current limiting, timing |
+
